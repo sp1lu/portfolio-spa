@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Unigeneration",
+        "url": "unigeneration",
+        "description": "Logo design e branding per Unigeneration, ora Youni, la community degli studenti dell'Unige (e non solo).",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Unigeneration-logo.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2017",
+        "client": "Unigeneration",
+        "category": "design"
+    },
+    {
+        "title": "Valore Energia",
+        "url": "valore-energia",
+        "description": "set di icone per valore energia, un'azienda che si occupa di efficientamento energetico.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Valore-Energia-manifesto.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2017",
+        "client": "Valore Energia",
+        "category": "coding"
+    }
+]

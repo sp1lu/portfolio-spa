@@ -1,0 +1,58 @@
+[
+    {
+        "role": "Graphic & Web Designer",
+        "company": "Freelance",
+        "companyUrl": "https://daviderivolta.com",
+        "date": "11/2017 - 03/2020",
+        "desc": "Progettazione e produzione di loghi ed identità visive complete per aziende, liberi professionisti, start up ed eventi. Progettazione del design di siti web. Programmazione front-end di siti web. Progettazione di volantini, brochure e packaging e loro controllo pre-stampa. Progettazione e produzione di contenuti per canali social.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD"]
+    },
+    {
+        "role": "Web Designer",
+        "company": "ROMI Agency",
+        "companyUrl": "https://romiagency.com/",
+        "date": "04/2018 - 03/2019",
+        "desc": "Progettazione del design dei siti web dei clienti e supporto alla scrittura del codice CSS.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD", "CSS"]
+    },
+    {
+        "role": "Co-founder, Graphic & Web Designer",
+        "company": "Youni Life",
+        "companyUrl": "https://youni.life/",
+        "date": "11/2017 - 03/2020",
+        "desc": "Progettazione dell'identità visiva dell'azienda e di tutti i suoi contenuti visivi, sia fisici che digitali. Mi sono inoltre occupato della progettazione e della programmazione frontend del sito web aziendale.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD", "CSS"]
+    },
+    {
+        "role": "Graphic & Web Designer",
+        "company": "Brain on Strategy",
+        "companyUrl": "https://brainonstrategy.com/",
+        "date": "03/2020 - 12/2020",
+        "desc": "Progettazione e produzione di loghi ed identità visive complete per aziende, liberi professionisti, start up ed eventi. Progettazione del design di siti web. Programmazione front-end di siti web. Progettazione di volantini, brochure e packaging e loro controllo pre-stampa. Progettazione e produzione di contenuti per canali social.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD", "CSS", "WordPress"]
+    },
+    {
+        "role": "Web Designer",
+        "company": "Aliseo",
+        "companyUrl": "https://brainonstrategy.com/",
+        "date": "01/2021 - 12/2021",
+        "desc": "Progettazione e gestioni dei siti web dedicati ai progetti promossi dall'ente.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD", "CSS", "WordPress"]
+    },
+    {
+        "role": "Graphic & Web Designer",
+        "company": "Brain on Strategy",
+        "companyUrl": "https://brainonstrategy.com/",
+        "date": "01/2022 - 02/2023",
+        "desc": "Progettazione e produzione di loghi ed identità visive complete per aziende, liberi professionisti, start up ed eventi. Progettazione del design di siti web. Programmazione front-end di siti web. Progettazione di volantini, brochure e packaging e loro controllo pre-stampa. Progettazione e produzione di contenuti per canali social.",
+        "technologies": ["Photoshop", "Illustrator", "InDesign", "XD", "CSS", "WordPress"]
+    },
+    {
+        "role": "Frontend developer tirocinante",
+        "company": "ETT",
+        "companyUrl": "https://ettsolutions.com/",
+        "date": "06/2023 - 10/2023",
+        "desc": "Sviluppo frontend di web app del settore smart gov.",
+        "technologies": ["HTML", "CSS", "JS", "Angular"]
+    }
+]

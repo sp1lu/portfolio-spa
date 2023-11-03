@@ -1,0 +1,48 @@
+header {
+    max-width: 768px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+img {
+    display: block;
+    max-width: 100%;   
+}
+
+#profile-pic {
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: 4%;
+    margin: 0 0 -60px 0;
+}
+
+#profile-detail {
+    margin: 0 4%;
+}
+
+#profile-icons {
+    display: flex;
+    color: #94a3b8;
+    font-size: .9rem;
+}
+
+.profile-icon-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 0 0;
+}
+
+svg {
+    margin: 0 8px 0 0;
+}
+
+span {
+    line-height: 0;
+}

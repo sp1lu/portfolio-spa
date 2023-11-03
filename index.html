@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <app-header></app-header>
+        <nav id="main-nav" class="sidebar">
+            <a href="/" onclick="route()">Home</a>
+            <a href="/about" onclick="route()">About</a>
+            <a href="/lorem" onclick="route()">Lorem</a>
+            <a href="/experience" onclick="route()">Experience</a>
+        </nav>
+
+        <div id="main-page"></div>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+</body>
+</html>
