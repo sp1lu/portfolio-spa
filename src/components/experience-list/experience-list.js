@@ -14,12 +14,7 @@ export class ExperienceList extends HTMLElement {
 
     connectedCallback() {
         // html
-        this.shadow.innerHTML =
-            `
-            `
-        ;
-
-        // js        
+        jobs.reverse();    
         jobs.forEach(job => {
             this.card = document.createElement('app-experience-card');
             this.card.setAttribute('job', JSON.stringify(job));
