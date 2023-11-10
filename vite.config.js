@@ -9,6 +9,7 @@ export default defineConfig({
                 404: 'src/pages/404.html',
                 about: 'src/pages/about.html',
                 lorem: 'src/pages/lorem.html',
+                design: 'src/pages/design.html',
                 experience: 'src/pages/experience.html'
             }
         }
