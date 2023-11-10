@@ -1,0 +1,47 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+article {
+    margin: 40px 0;
+}
+
+a {
+    font-weight: 600;
+    color: rgb(98, 234, 213);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(78, 187, 170);
+}
+
+.experience-date {
+    margin: 0 0 8px 0;
+}
+
+.experience-role-company {
+    display: flex;
+    align-items: center;
+}
+
+.experience-role-company h3 {
+    color: rgb(229, 231, 235);
+    margin: 0;
+}
+
+.experience-role-company a {
+    margin-left: 8px;
+}
+
+.experience-skills {
+    margin: 32px 0 0 0;
+}
+
+.experience-skills .skill {
+    display: inline-block;
+    color: rgb(98, 234, 213);
+    background-color: #122B39;
+    font-size: 12px;
+    padding: 4px 16px;
+    border-radius: 50px;
+    margin: 0 4px 4px 0;
+}

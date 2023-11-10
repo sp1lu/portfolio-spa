@@ -14,7 +14,6 @@ export const route = (event) => {
 const routes = {
     404: './src/pages/404.html',
     '/': './src/pages/design.html',
-    '/test': './src/pages/test.html',
     '/design': './src/pages/design.html',
     '/unigeneration': './src/pages/unigeneration.html',
     '/coding': './src/pages/coding.html',
