@@ -51,7 +51,7 @@ export class Header extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', 'src/components/header/header.css');
+        style.setAttribute('href', '/src/components/header/header.css');
         this.shadowRoot.append(style);
     }
 }

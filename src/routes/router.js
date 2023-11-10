@@ -16,6 +16,7 @@ const routes = {
     '/': './src/pages/design.html',
     '/test': './src/pages/test.html',
     '/design': './src/pages/design.html',
+    '/unigeneration': './src/pages/unigeneration.html',
     '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'

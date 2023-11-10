@@ -1,5 +1,5 @@
 import { fetchJson } from '/src/utils/fetchJson.js';
-const workUrl = './json/works.json';
+const workUrl = '/json/works.json';
 let works = await fetchJson(workUrl);
 
 export const designRouter = (div) => {

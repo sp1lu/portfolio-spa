@@ -11,33 +11,18 @@ export class WorkCard extends HTMLElement {
 
     connectedCallback() {
         // html
-        // this.shadow.innerHTML =
-        //     `
-        //     <article>
-        //         <div class="post">
-        //             <div class="post-author-pic-section">
-        //                 <img class="post-author-pic" src="https://daviderivolta.com/wp-content/uploads/2023/02/Davide-Rivolta-768x432.jpg" alt="Immagine del profilo di Davide Rivolta">
-        //             </div>
-        //             <div class="post-content">
-        //                 <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${this.getAttribute('year')}</span></p>
-        //                 <p>${this.getAttribute('desc')}</p>
-        //                 <img src="${this.getAttribute('img')}" alt="">
-        //             </div>
-        //         </div>
-        //     </article>
-        //     `
-        // ;
+        const work = JSON.parse(this.getAttribute('work'));
 
         this.shadow.innerHTML =
             `
-            <article>
+            <article href="${work.url}">
                 <div class="post-author-pic-section">
                     <img class="post-author-pic" src="https://daviderivolta.com/wp-content/uploads/2023/02/Davide-Rivolta-768x432.jpg" alt="Immagine del profilo di Davide Rivolta">
                 </div>
                 <div class="post-content">
                     <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${JSON.parse(this.getAttribute('work')).year}</span></p>
-                    <p>${JSON.parse(this.getAttribute('work')).desc}</p>
-                    <img src="${JSON.parse(this.getAttribute('work')).img}" alt="">
+                    <p>${work.desc}</p>
+                    <img src="${work.img}" alt="">
                 </div>
             </article>
             `
@@ -49,13 +34,17 @@ export class WorkCard extends HTMLElement {
         // style.setAttribute('href', '/components/post/post.css');
         // this.shadow.append(style);
 
-        // this.render();
-
         // js
-        this.shadow.querySelector('article').addEventListener('click', () => {
-            window.location.href = `/${JSON.parse(this.getAttribute('work')).url}`;
-        });
+        this.article = this.shadow.querySelector('article');
+        this.article.addEventListener('click', this.handleLinkClick.bind(this));
 
+    }
+
+    handleLinkClick(event) {
+        const work = JSON.parse(this.getAttribute('work'));
+        event.preventDefault();
+        history.pushState({}, '', work.url);
+        window.onpopstate(event);
     }
 }
 

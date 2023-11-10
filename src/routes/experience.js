@@ -1,5 +1,5 @@
 import { fetchJson } from '/src/utils/fetchJson.js';
-const jobsUrl = './json/jobs.json';
+const jobsUrl = '/json/jobs.json';
 const jobs = await fetchJson(jobsUrl);
 jobs.reverse();
 
