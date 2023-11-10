@@ -13,13 +13,12 @@ export const route = (event) => {
 
 const routes = {
     404: './src/pages/404.html',
-    '/': './src/pages/test.html',
-    '/about': './src/pages/about.html',
-    '/lorem': './src/pages/lorem.html',
+    '/': './src/pages/design.html',
     '/test': './src/pages/test.html',
     '/design': './src/pages/design.html',
     '/coding': './src/pages/coding.html',
-    '/experience': './src/pages/experience.html'
+    '/experience': './src/pages/experience.html',
+    '/about': './src/pages/about.html'
 };
 
 const handleLocation = async () => {
@@ -29,6 +28,7 @@ const handleLocation = async () => {
     document.getElementById("main-page").innerHTML = html;
 
     switch (path) {
+        case '/':
         case '/design':
             const dl = document.querySelector('#design-list');
             designRouter(dl);

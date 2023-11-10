@@ -9,12 +9,10 @@ export class Navbar extends HTMLElement {
         this.shadow.innerHTML =
             `
             <nav id="main-nav" class="sidebar">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/lorem">Lorem</a>
                 <a href="/design">Design</a>
                 <a href="/coding">Coding</a>
                 <a href="/experience">Experience</a>
+                <a href="/about">About</a>
             </nav>
             `
         ;

@@ -5,12 +5,11 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: 'index.html',
-                test: 'src/pages/test.html',
-                404: 'src/pages/404.html',
                 about: 'src/pages/about.html',
-                lorem: 'src/pages/lorem.html',
                 design: 'src/pages/design.html',
-                experience: 'src/pages/experience.html'
+                coding: 'src/pages/coding.html',
+                experience: 'src/pages/experience.html',
+                404: 'src/pages/404.html',
             }
         }
     }
