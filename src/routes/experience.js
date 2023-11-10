@@ -8,5 +8,7 @@ export const experienceRouter = (div) => {
         const card = document.createElement('app-experience-card');
         card.setAttribute('job', JSON.stringify(job));
         div.append(card);
+
+        console.log(job);
     });
 }

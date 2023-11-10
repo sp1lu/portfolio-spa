@@ -9,14 +9,16 @@ export class ExperienceCard extends HTMLElement {
 
     connectedCallback() {
         // html
-        const job = JSON.parse(this.getAttribute('job'));
-        this.card = document.createElement('card');
-
-        this.company = document.createElement('p');
-        this.company.innerText = job.company;
-        this.card.append(this.company);
-
-        this.shadow.append(this.card);
+        this.shadow.innerHTML =
+            `
+            <article>
+                <p>${JSON.parse(this.getAttribute('job')).date}</p>
+                <h3>${JSON.parse(this.getAttribute('job')).role}</h3>
+                <a href="${JSON.parse(this.getAttribute('job')).companyUrl}" target="_blank"><span>${JSON.parse(this.getAttribute('job')).company}</span></a>
+                <p>${JSON.parse(this.getAttribute('job')).desc}</p>
+            </article>
+            `
+        ;
     }
 
     static observedAttributes = [];
