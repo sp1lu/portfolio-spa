@@ -2,7 +2,7 @@ export class WorkCard extends HTMLElement {
 
     constructor() {
         super();
-        this.shadow = this.attachShadow({ mode: 'closed' });
+        this.attachShadow({ mode: 'open' });
     }
 
     render() {
@@ -13,7 +13,7 @@ export class WorkCard extends HTMLElement {
         // html
         const work = JSON.parse(this.getAttribute('work'));
 
-        this.shadow.innerHTML =
+        this.shadowRoot.innerHTML =
             `
             <article href="${work.url}">
                 <div class="post-author-pic-section">
@@ -28,15 +28,15 @@ export class WorkCard extends HTMLElement {
             `
             ;
 
-        // css
-        // const style = document.createElement('link');
-        // style.setAttribute('rel', 'stylesheet');
-        // style.setAttribute('href', '/components/post/post.css');
-        // this.shadow.append(style);
-
         // js
-        this.article = this.shadow.querySelector('article');
+        this.article = this.shadowRoot.querySelector('article');
         this.article.addEventListener('click', this.handleLinkClick.bind(this));
+
+        // css
+        const style = document.createElement('link');
+        style.setAttribute('rel', 'stylesheet');
+        style.setAttribute('href', '/src/components/work/work.css');
+        this.shadowRoot.append(style);
 
     }
 
