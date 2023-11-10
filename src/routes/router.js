@@ -1,3 +1,7 @@
+// Import modules
+import { experienceRouter } from './experience';
+
+// Router
 const route = (event) => {
     event = event || window.event;
     event.preventDefault();
@@ -19,6 +23,11 @@ const handleLocation = async () => {
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
     document.getElementById("main-page").innerHTML = html;
+
+    if (path === '/experience') {
+        const div = document.querySelector('#experience-list')
+        experienceRouter(div);
+    }
 };
 
 window.onpopstate = handleLocation;
