@@ -9,16 +9,25 @@ export class ExperienceCard extends HTMLElement {
 
     connectedCallback() {
         // html
+        const job = JSON.parse(this.getAttribute('job'));
+
         this.shadow.innerHTML =
             `
             <article>
-                <p>${JSON.parse(this.getAttribute('job')).date}</p>
-                <h3>${JSON.parse(this.getAttribute('job')).role}</h3>
-                <a href="${JSON.parse(this.getAttribute('job')).companyUrl}" target="_blank"><span>${JSON.parse(this.getAttribute('job')).company}</span></a>
-                <p>${JSON.parse(this.getAttribute('job')).desc}</p>
+                <p>${job.date}</p>
+                <h3>${job.role}</h3>
+                <a href="${job.companyUrl}" target="_blank"><span>${job.company}</span></a>
+                <p>${job.desc}</p>
             </article>
             `
         ;
+
+        this.card = this.shadow.querySelector('article');
+        job.technologies.forEach(technology => {
+            const pill = document.createElement('span');
+            pill.innerText = technology;
+            this.card.append(pill);
+        });
     }
 
     static observedAttributes = [];
