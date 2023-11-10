@@ -1,5 +1,6 @@
 // Import modules
 import { designRouter } from './design';
+import { codingRouter } from './coding';
 import { experienceRouter } from './experience';
 
 // Router
@@ -17,6 +18,7 @@ const routes = {
     '/lorem': './src/pages/lorem.html',
     '/test': './src/pages/test.html',
     '/design': './src/pages/design.html',
+    '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html'
 };
 
@@ -27,14 +29,19 @@ const handleLocation = async () => {
     document.getElementById("main-page").innerHTML = html;
 
     switch (path) {
-        case '/experience':
-            const el = document.querySelector('#experience-list');
-            experienceRouter(el);
-            break;
-
         case '/design':
             const dl = document.querySelector('#design-list');
             designRouter(dl);
+            break;
+
+        case '/coding':
+            const cl = document.querySelector('#coding-list');
+            codingRouter(cl);
+            break;
+
+        case '/experience':
+            const el = document.querySelector('#experience-list');
+            experienceRouter(el);
             break;
 
         default:

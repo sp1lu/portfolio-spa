@@ -13,6 +13,7 @@ export class Navbar extends HTMLElement {
                 <a href="/about">About</a>
                 <a href="/lorem">Lorem</a>
                 <a href="/design">Design</a>
+                <a href="/coding">Coding</a>
                 <a href="/experience">Experience</a>
             </nav>
             `
