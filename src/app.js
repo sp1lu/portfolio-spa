@@ -5,3 +5,4 @@ import './routes/router.js';
 import './components/header/header.js';
 import './components/experience/experience.js';
 import './components/work/work.js';
+import './components/navbar/navbar.js';

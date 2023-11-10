@@ -3,7 +3,7 @@ import { designRouter } from './design';
 import { experienceRouter } from './experience';
 
 // Router
-const route = (event) => {
+export const route = (event) => {
     event = event || window.event;
     event.preventDefault();
     window.history.pushState({}, "", event.target.href);
@@ -36,13 +36,10 @@ const handleLocation = async () => {
             const dl = document.querySelector('#design-list');
             designRouter(dl);
             break;
+
         default:
             break;
     }
-    // if (path === '/experience') {
-    //     const div = document.querySelector('#experience-list')
-    //     experienceRouter(div);
-    // }
 };
 
 window.onpopstate = handleLocation;
