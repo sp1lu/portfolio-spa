@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-
 article {
     margin: 40px 0;
 }
@@ -33,7 +31,7 @@ a:hover {
 }
 
 .experience-skills {
-    margin: 32px 0 0 0;
+    margin: 24px 0 0 0;
 }
 
 .experience-skills .skill {

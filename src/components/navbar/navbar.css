@@ -1,0 +1,32 @@
+nav {
+    padding: 0 4%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+a {
+    box-sizing: border-box;
+    display: block;
+    padding: 16px 0;
+    text-decoration: none;
+    color: rgb(229, 231, 235);
+    border-bottom: 4px solid transparent;
+}
+
+a:hover {
+    background-color: rgb(19, 29, 51);
+    border-bottom: 4px solid rgb(98, 234, 213);
+}

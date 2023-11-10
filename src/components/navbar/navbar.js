@@ -1,27 +1,35 @@
 export class Navbar extends HTMLElement {
     constructor() {
         super();
-        this.shadow = this.attachShadow({ mode: 'closed' });
+        this.attachShadow({ mode: 'open' });
     }
 
     connectedCallback() {
         // html
-        this.shadow.innerHTML =
+       this.shadowRoot.innerHTML =
             `
-            <nav id="main-nav" class="sidebar">
-                <a href="/design">Design</a>
-                <a href="/coding">Coding</a>
-                <a href="/experience">Experience</a>
-                <a href="/about">About</a>
+            <nav>
+                <ul>
+                    <li><a href="/design">Design</a></li>
+                    <li><a href="/coding">Coding</a></li>
+                    <li><a href="/experience">Experience</a></li>
+                    <li><a href="/about">About</a></li>
+                <ul>
             </nav>
             `
         ;
 
         // js
-        this.links = this.shadow.querySelectorAll('a');
+        this.links = this.shadowRoot.querySelectorAll('a');
         this.links.forEach(link => {
             link.addEventListener('click', this.handleLinkClick.bind(this));
         });
+
+        // css
+        const style = document.createElement('link');
+        style.setAttribute('rel', 'stylesheet');
+        style.setAttribute('href', '/src/components/navbar/navbar.css');
+        this.shadowRoot.append(style);
     }
 
     static observedAttributes = [];
