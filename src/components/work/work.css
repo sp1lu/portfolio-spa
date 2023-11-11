@@ -42,11 +42,12 @@ article:hover {
     color: #94a3b8;
 }
 
+.post-content a {
+    font-weight: 600;
+    color: rgb(98, 234, 213);
+}
+
 img {
     max-width: 100%;
     border-radius: 8px;
 }
-
-/* app-heart-btn {
-    float: right;
-} */
