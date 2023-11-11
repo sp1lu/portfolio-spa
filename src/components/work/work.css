@@ -1,3 +1,52 @@
+article {
+    cursor: pointer;
+    padding: 4%;
+    border-radius: 8px;
+}
+
+article:hover {
+    background-color: rgb(19, 29, 51);
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-author-pic-section {
+    min-width: 56px;
+}
+
+.post-author-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-content {
+    width: 90%;
+}
+
+.post-author {
+    margin: 0 0 8px 0;
+}
+
+.post-author-name {
+    font-weight: 600;
+    color: rgb(229, 231, 235);
+}
+
+.post-author-username,
+.post-date {
+    color: #94a3b8;
+}
+
 img {
     max-width: 100%;
+    border-radius: 8px;
 }
+
+/* app-heart-btn {
+    float: right;
+} */

@@ -24,14 +24,7 @@ h6 {
     color: rgb(229, 231, 235);
 }
 
-/* #main-page {
-    padding: 0 4%;
-} */
-
-#experience-list {
-    padding: 0 4%;
-}
-
+#experience-list,
 #about {
     padding: 0 4%;
 }
