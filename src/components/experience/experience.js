@@ -17,6 +17,7 @@ export class ExperienceCard extends HTMLElement {
                 <p class="experience-date">${job.date}</p>
                 <div class="experience-role-company">
                     <h3>${job.role}</h3>
+                    <span class="divider">•</span>
                     <a href="${job.companyUrl}" target="_blank">${job.company}
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">

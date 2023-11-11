@@ -27,6 +27,9 @@ const handleLocation = async () => {
     const html = await fetch(route).then((data) => data.text());
     document.getElementById("main-page").innerHTML = html;
 
+    const navbar = document.querySelector('app-navbar');
+    navbar.setAttribute('current-page', path);
+
     switch (path) {
         case '/':
         case '/design':

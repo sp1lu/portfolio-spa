@@ -31,3 +31,7 @@ a:hover {
     background-color: rgb(19, 29, 51);
     border-bottom: 4px solid rgb(98, 234, 213);
 }
+
+.current {
+    border-bottom: 4px solid rgb(98, 234, 213);
+}

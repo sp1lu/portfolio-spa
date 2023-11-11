@@ -52,7 +52,7 @@
         "company": "ETT",
         "companyUrl": "https://ettsolutions.com/",
         "date": "06/2023 - 10/2023",
-        "desc": "Sviluppo frontend di web app del settore smart gov.",
-        "technologies": ["HTML", "CSS", "JS", "Angular"]
+        "desc": "Sviluppo frontend di web app del settore smart city.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Web Components"]
     }
 ]

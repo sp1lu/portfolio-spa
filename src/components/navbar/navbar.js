@@ -6,7 +6,7 @@ export class Navbar extends HTMLElement {
 
     connectedCallback() {
         // html
-       this.shadowRoot.innerHTML =
+        this.shadowRoot.innerHTML =
             `
             <nav>
                 <ul>
@@ -17,7 +17,7 @@ export class Navbar extends HTMLElement {
                 <ul>
             </nav>
             `
-        ;
+            ;
 
         // js
         this.links = this.shadowRoot.querySelectorAll('a');
@@ -32,14 +32,25 @@ export class Navbar extends HTMLElement {
         this.shadowRoot.append(style);
     }
 
-    static observedAttributes = [];
-    attributeChangedCallback() {
-
+    static observedAttributes = ['current-page'];
+    attributeChangedCallback(name, oldValue, newValue) {
+        if (name == 'current-page') {    
+            this.styleCurrentLink(this.links);
+        }
     }
 
     handleLinkClick(event) {
         event.preventDefault();
         window.route(event);
+    }
+
+    styleCurrentLink(links) {
+        links.forEach(link => {
+            if (this.getAttribute('current-page') == link.getAttribute('href')) {
+                links.forEach(link => link.classList.remove('current'));
+                link.classList.add('current');
+            }
+        });
     }
 }
 
