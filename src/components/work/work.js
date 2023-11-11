@@ -23,7 +23,7 @@ export class WorkCard extends HTMLElement {
                     </div>
                     <div class="post-content">
                         <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${JSON.parse(this.getAttribute('work')).year}</span></p>
-                        <p>${work.desc} <a href="/${work.url}">#${work.url}</a></p>
+                        <p>${work.desc} <a href="/${work.url}">/${work.url}</a></p>
                         <img src="${work.img}" alt="Thumbnail progetto ${work.title}">
                     </div>
                 </div>

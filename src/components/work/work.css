@@ -43,6 +43,7 @@ article:hover {
 }
 
 .post-content a {
+    text-decoration: none;
     font-weight: 600;
     color: rgb(98, 234, 213);
 }

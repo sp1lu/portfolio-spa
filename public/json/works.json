@@ -12,11 +12,151 @@
     {
         "title": "Valore Energia",
         "url": "valore-energia",
-        "desc": "set di icone per valore energia, un'azienda che si occupa di efficientamento energetico.",
+        "desc": "Set di icone per Valore Energia, un'azienda che si occupa di efficientamento energetico.",
         "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Valore-Energia-manifesto.png",
         "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
         "year": "2017",
         "client": "Valore Energia",
-        "category": "coding"
+        "category": "design"
+    },
+    {
+        "title": "Illustrazioni",
+        "url": "illustrazioni",
+        "desc": "Illustrazioni vettoriali varie commissionate da diversi clienti dal 2016 ad oggi realizzate in adobe illustratori.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Shitty-icepop.png",
+        "technologies": ["Adobe Illustrator"],
+        "year": "2016-",
+        "client": "Vari",
+        "category": "design"
+    },
+    {
+        "title": "uDog",
+        "url": "udog",
+        "desc": "Logo design per uDog, un'associazione che si prefigge l'obiettivo di insegnare attraverso corsi e seminari la corretta relazione che un padrone dovrebbe instaurare con il proprio animale domestico.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/uDog-logo.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2020",
+        "client": "uDog",
+        "category": "design"
+    },
+    {
+        "title": "Youni",
+        "url": "youni",
+        "desc": "Icone progettate per il sito web di Youni, un portale web dove gli studenti universitari possono trovare servizi a loro dedicati.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Youni-Salvadanaio.png",
+        "technologies": ["Adobe Illustrator"],
+        "year": "2022",
+        "client": "Youni",
+        "category": "design"
+    },
+    {
+        "title": "Logofolio",
+        "url": "logofolio",
+        "desc": "Raccolta di loghi assortiti, alcuni progetti personali altri commissionati da clienti, progettati dal 2017 al 2021.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Logo-collection-thumbnail.png",
+        "technologies": ["Adobe Illustrator"],
+        "year": "2017-2021",
+        "client": "Vari",
+        "category": "design"
+    },
+    {
+        "title": "Pegli Circus",
+        "url": "pegli-circus",
+        "desc": "Pegli Circus è stato una manifestazione a tema circense che si è svolta nel 2019 nel quartiere genovese di Pegli.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Pegli-Circus-logo.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2019",
+        "client": "Pegli Circus",
+        "category": "design"
+    },
+    {
+        "title": "Rivarolo 1",
+        "url": "rivarolo-1",
+        "desc": "Logo design per una serie di eventi dedicati al festeggiamento del centenario del gruppo scout Rivarolo 1 di Genova.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Rivarolo-1-felpa.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2018",
+        "client": "Gruppi scout Genova 51, Genova 52 e Genova 100",
+        "category": "design"
+    },
+    {
+        "title": "Hitman 3",
+        "url": "hitman-3",
+        "desc": "Progetto personale del redesign del logo del videogioco 'Hitman 3' sviluppato e prodotto da IO Interactive.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Hitman-3-logo-black-bg.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2020",
+        "client": "Progetto personale",
+        "category": "design"
+    },
+    {
+        "title": "Kobe Bryant poster",
+        "url": "kobe-bryant",
+        "desc": "Poster tipografico realizzato in occasione del primo anniversario della scomparsa del campione nba kobe bryant.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/01/Kobe-Bryant-poster-black-thumbnail.png",
+        "technologies": ["Adobe Illustrator"],
+        "year": "2021",
+        "client": "Progetto personale",
+        "category": "design"
+    },
+    {
+        "title": "Videogame spoilers",
+        "url": "videogame-spoilers",
+        "desc": "Progetto mirato a creare un design per una t-shirt che contenesse gli spoiler più grandi del mondo videoludico degli ultimi anni.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Videogame-spoiler.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2017",
+        "client": "Progetto personale",
+        "category": "design"
+    },
+    {
+        "title": "Botteghe Storiche di Genova",
+        "url": "botteghe-storiche-genova",
+        "desc": "Proposta di logo design per il consorzio delle botteghe storiche della città di Genova.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Botteghe-Storiche-logo-rosso.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2019",
+        "client": "Comune di Genova",
+        "category": "design"
+    },
+    {
+        "title": "Assassin's Creed Odyssey poster",
+        "url": "assassins-creed-odyssey-poster",
+        "desc": "Poster vettoriale dedicato al videogioco Assassin's Creed Odyssey, sviluppato e pubblicato da Ubisoft.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/01/Assassins-Creed-Odyssey-poster-thumbnail.png",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2021",
+        "client": "Progetto personale",
+        "category": "design"
+    },
+    {
+        "title": "Casa medievale render",
+        "url": "casa-medievale-render",
+        "desc": "Modello tridimensionale di una casa dallo stile medievale. Modello e rendering realizzati interamente in Blender.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Casa-medievale.png",
+        "technologies": ["Blender"],
+        "year": "2022",
+        "client": "Progetto personale",
+        "category": "design"
+    },
+    {
+        "title": "Re Kappa",
+        "url": "re-kappa",
+        "desc": "Design per una t-shirt da indossare all'addio al celibato di un ragazzo soprannominato Kappa dai suoi amici.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Kappa-maglia-retro.jpg",
+        "technologies": ["Adobe Photoshop", "Adobe Illustrator"],
+        "year": "2020",
+        "client": "Amici dello sposo",
+        "category": "design"
+    },
+    {
+        "title": "Hard surface render",
+        "url": "hard-surface-render",
+        "desc": "Progetti vari di render di oggetti in stile fotorealistico realizzati per la maggior parte in Blender e texturizzati in Substance Painter.",
+        "img": "https://daviderivolta.com/wp-content/uploads/2023/02/Electric-spine.png",
+        "technologies": ["Blender", "Adobe Substance Painter"],
+        "year": "2022",
+        "client": "Vari",
+        "category": "design"
     }
 ]
