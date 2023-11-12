@@ -17,6 +17,12 @@ const routes = {
     '/design': './src/pages/design.html',
     '/unigeneration': './src/pages/unigeneration.html',
     '/valore-energia': './src/pages/valore-energia.html',
+    '/illustrazioni': './src/pages/illustrations.html',
+    '/udog': './src/pages/udog.html',
+    '/youni': './src/pages/youni.html',
+    '/pegli-circus': './src/pages/pegli-circus.html',
+    '/logofolio': './src/pages/logofolio.html',
+    '/rivarolo-1': './src/pages/rivarolo-1.html',
     '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
