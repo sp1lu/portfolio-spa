@@ -16,6 +16,7 @@ const routes = {
     '/': './src/pages/design.html',
     '/design': './src/pages/design.html',
     '/unigeneration': './src/pages/unigeneration.html',
+    '/valore-energia': './src/pages/valore-energia.html',
     '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
@@ -26,6 +27,8 @@ const handleLocation = async () => {
     const route = routes[path] || routes[404];
     const html = await fetch(route).then((data) => data.text());
     document.getElementById("main-page").innerHTML = html;
+
+    document.documentElement.scrollTop = 0;
 
     const navbar = document.querySelector('app-navbar');
     navbar.setAttribute('current-page', path);
