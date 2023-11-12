@@ -25,6 +25,7 @@ const routes = {
     '/rivarolo-1': './src/pages/rivarolo-1.html',
     '/hitman-3': './src/pages/hitman-3.html',
     '/kobe-bryant': './src/pages/kobe-bryant.html',
+    '/videogame-spoilers': './src/pages/videogame-spoilers.html',
     '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
