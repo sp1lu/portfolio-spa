@@ -26,6 +26,11 @@ const routes = {
     '/hitman-3': './src/pages/hitman-3.html',
     '/kobe-bryant': './src/pages/kobe-bryant.html',
     '/videogame-spoilers': './src/pages/videogame-spoilers.html',
+    '/botteghe-storiche-genova': './src/pages/botteghe-storiche-genova.html',
+    '/assassins-creed-odyssey-poster': './src/pages/assassins-creed-odyssey.html',
+    '/casa-medievale-render': './src/pages/casa-medievale-render.html',
+    '/re-kappa': './src/pages/kappa.html',
+    '/hard-surface-render': './src/pages/hard-surface.html',
     '/coding': './src/pages/coding.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
