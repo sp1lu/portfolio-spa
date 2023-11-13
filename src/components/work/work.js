@@ -33,7 +33,6 @@ export class WorkCard extends HTMLElement {
         ;
 
         this.tags = this.shadowRoot.querySelector('.tags');
-        console.log(work.technologies);
         work.technologies.forEach(element => {
             const tag = document.createElement('span');
             tag.classList.add('tech');
