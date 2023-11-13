@@ -12,7 +12,6 @@ export class WorkCard extends HTMLElement {
     connectedCallback() {
         // html
         const work = JSON.parse(this.getAttribute('work'));
-        console.log(work);
 
         this.shadowRoot.innerHTML =
             `
@@ -24,13 +23,23 @@ export class WorkCard extends HTMLElement {
                     <div class="post-content">
                         <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${JSON.parse(this.getAttribute('work')).year}</span></p>
                         <p>${work.desc} <a href="/${work.url}">/${work.url}</a></p>
+                        <div class="tags"></div>
                         <img src="${work.img}" alt="Thumbnail progetto ${work.title}">
                     </div>
                 </div>
                 <app-heart-btn></app-heart-btn>
             </article>
             `
-            ;
+        ;
+
+        this.tags = this.shadowRoot.querySelector('.tags');
+        console.log(work.technologies);
+        work.technologies.forEach(element => {
+            const tag = document.createElement('span');
+            tag.classList.add('tech');
+            tag.innerText = element;
+            this.tags.append(tag);
+        });
 
         // js
         this.article = this.shadowRoot.querySelector('article');
