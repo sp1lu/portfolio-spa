@@ -46,10 +46,6 @@ img {
     color: rgb(98, 234, 213);
 }
 
-.profile-icon-wrapper span {
-    font-weight: 600;
-}
-
 .profile-icon-wrapper a:hover {
     color: rgb(78, 187, 170);
 }

@@ -158,5 +158,15 @@
         "year": "2022",
         "client": "Vari",
         "category": "design"
+    },
+    {
+        "title": "Tema Wordpress portfolio",
+        "url": "wordpress-theme",
+        "desc": "Vecchia versione di questo sito, realizzato con Wordpress ed un tema personalizzato creato da zero.",
+        "img": "https://res.cloudinary.com/duuklscys/image/upload/v1699902012/Portfolio/wordpress_theme_projects_template_bcix6o.png",
+        "technologies": ["Wordpress", "HTML", "CSS"],
+        "year": "2023",
+        "client": "Progetto personale",
+        "category": "coding"
     }
 ]
