@@ -34,10 +34,9 @@ export class WorkCard extends HTMLElement {
 
         this.tags = this.shadowRoot.querySelector('.tags');
         work.technologies.forEach(element => {
-            const tag = document.createElement('span');
-            tag.classList.add('tech');
-            tag.innerText = element;
-            this.tags.append(tag);
+            const pill = document.createElement('app-pill');
+            pill.setAttribute('text', element);
+            this.tags.append(pill);
         });
 
         // js

@@ -1,0 +1,9 @@
+span {
+    display: inline-block;
+    color: rgb(98, 234, 213);
+    background-color: #122B39;
+    font-size: 12px;
+    padding: 4px 16px;
+    border-radius: 50px;
+    margin: 0 4px 4px 0;
+}
