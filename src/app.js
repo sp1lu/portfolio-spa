@@ -8,3 +8,4 @@ import './components/work/work.js';
 import './components/heart/heart.js';
 import './components/experience/experience.js';
 import './components/pill/pill.js';
+import './components/footer/footer.js';
