@@ -6,11 +6,7 @@ export class Pill extends HTMLElement {
 
     connectedCallback() {
         // html
-        this.shadowRoot.innerHTML =
-            `
-            <span></span>
-            `
-        ;
+        this.shadowRoot.innerHTML = `<span></span>`;
 
         this.span = this.shadowRoot.querySelector('span');
         if (this.hasAttribute('text')) {
@@ -22,11 +18,6 @@ export class Pill extends HTMLElement {
         style.setAttribute('rel', 'stylesheet');
         style.setAttribute('href', '/src/components/pill/pill.css');
         this.shadowRoot.append(style);
-    }
-
-    static observedAttributes = [];
-    attributeChangedCallback() {
-
     }
 }
 
