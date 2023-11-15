@@ -33,6 +33,7 @@ const routes = {
     '/hard-surface-render': './src/pages/hard-surface.html',
     '/coding': './src/pages/coding.html',
     '/wordpress-theme': './src/pages/wordpress-theme.html',
+    '/newsly': './src/pages/newsly.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
 };

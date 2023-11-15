@@ -1,0 +1,38 @@
+<div class="project">
+    <p>Newsly è un progetto personale grazie alla quale gli utenti possono creare il proprio news feed personalizzato.
+    </p>
+    <p>La webapp supporta tutti i canali RSS nonché i subreddit.</p>
+    <p>Il backend di Newsly è realizzato da zero grazie a Node.js ed Express.js, con la quale è stato possibile gestire
+        il routing delle pagine.</p>
+    <p>Le informazioni degli utenti, compresi i dati di autenticazione e le fonti delle news da loro selezionate, sono
+        salvate su un database MongoDB in cloud su Atlas; le operazioni su database vengono eseguite tramite API grazie
+        all'utilizzo della libreria Mongoose.</p>
+    <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700073532/Portfolio/newsly_landing_page_ponhzb.png"
+        alt="Landing page">
+    <p>Visto che il newsfeed è personalizzato in base alle fonti di news selezionate dall'utente, bisogna
+        obbligatoriamente essere registrati ed aver effettuato il login per utilizzare la webapp.</p>
+    <p>La registrazione e l'autenticazione dell'utente sono gestiti grazie a Passport.js, che si occupa anche di
+        effettuare l'hash ed il salt della password prima di salvarla nel database in maniera tale da criptarla.</p>
+    <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700073532/Portfolio/newsly_signup_ouyaph.png"
+        alt="Pagina di registrazione">
+    <p>Una volta registrato l'utente viene reindirizzato ad una pagina in cui gli viene chiesto di scegliere alcuni una
+        tra una serie di fonti di informazione già presenti nel database da cui iniziare a leggere le notizie. Una volta
+        scelte, l'utente viene reindirizzato alla dashboard principale, nella quale la webapp si occupa di caricare le
+        ultime notizie ricevute dai canali RSS delle fonti di news selezionate dall'utente, che vengono salavate nel
+        database ed a lui associate.</p>
+    <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700073533/Portfolio/newsly_feed_wl7wg8.png"
+        alt="Dashbaord news feed">
+    <p>L'utente può in ogni momento andare nella pagina dedicata alle impostazioni e selezionare/deselezionare le fonti
+        di news in maniera tale da leggere solo quelle a cui è più interessato.</p>
+    <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700073533/Portfolio/newsly_feed_preferences_oaytyl.png"
+        alt="Impostazioni">
+    <p>È inoltre possibile inserire fonti RSS personalizzate dalla pagina apposita. La webapp si occupa di controllare
+        se l'url inserito come fonte RSS è valido, ovvero se la risposta contiene un file RSS, dopodiché aggiunge questa
+        nuova fonte alla pagina delle impostazioni come selezionata e le news da quella fonte appariranno nella
+        dashboard.</p>
+    <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700073533/Portfolio/newsly_feed_add_custom_cpimdz.png"
+        alt="Agiunta fonti rss personalizzate">
+    <p>Grazie all'utilizzo della libreria connect-flash è possibile inviare all'utente messaggi in base alle situazioni;
+        è per esempio utilizzata per indicare all'utente che il link inserito come canale RSS personalizzato non è un
+        link valido.</p>
+</div>
