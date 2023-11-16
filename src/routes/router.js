@@ -34,6 +34,7 @@ const routes = {
     '/coding': './src/pages/coding.html',
     '/wordpress-theme': './src/pages/wordpress-theme.html',
     '/newsly': './src/pages/newsly.html',
+    '/yelpcamp': './src/pages/yelpcamp.html',
     '/experience': './src/pages/experience.html',
     '/about': './src/pages/about.html'
 };
