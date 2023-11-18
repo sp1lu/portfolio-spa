@@ -1,8 +1,8 @@
 import { fetchJson } from '/src/utils/fetchJson.js';
 const workUrl = '/json/works.json';
-let works = await fetchJson(workUrl);
 
-export const codingRouter = (div) => {
+export const codingRouter = async (div) => {
+    let works = await fetchJson(workUrl);
     works = works.filter(obj => obj.category === 'coding');
 
     works.forEach(work => {
