@@ -23,14 +23,21 @@ export class WorkCard extends HTMLElement {
                     <div class="post-content">
                         <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${JSON.parse(this.getAttribute('work')).year}</span></p>
                         <p>${work.desc} <a href="/${work.url}">/${work.url}</a></p>
-                        <div class="tags"></div>
-                        <img src="${work.img}" alt="Thumbnail progetto ${work.title}">
+                        <div class="tags"></div>                        
                     </div>
                 </div>
                 <app-heart-btn></app-heart-btn>
             </article>
             `
         ;
+
+        this.postContent = this.shadowRoot.querySelector('.post-content');
+        if (work.img != '') {
+            this.img = document.createElement('img');
+            this.img.setAttribute('src', work.img);
+            this.img.setAttribute('alt', `Thumbnail progetto ${work.title}`);
+            this.postContent.appendChild(this.img);
+        }
 
         this.tags = this.shadowRoot.querySelector('.tags');
         work.technologies.forEach(element => {

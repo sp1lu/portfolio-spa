@@ -180,16 +180,6 @@
         "category": "coding"
     },
     {
-        "title": "YelpCamp",
-        "url": "yelpcamp",
-        "desc": "Webapp ispirata a Yelp in cui gli utenti possono registrare i campeggi che hanno visitato, geolocalizzandoli e aggiungendone una descrizione e delle fotografie; possono inoltre aggiungere valutazioni e recensioni ai campeggi aggiunti dagli altri utenti.",
-        "img": "https://res.cloudinary.com/duuklscys/image/upload/v1699902012/Portfolio/wordpress_theme_projects_template_bcix6o.png",
-        "technologies": ["MongoDB", "Express.js", "EJS", "Node.js"],
-        "year": "2023",
-        "client": "Progetto personale",
-        "category": "coding"
-    },
-    {
         "title": "Tema Wordpress portfolio",
         "url": "wordpress-theme",
         "desc": "Vecchia versione di questo sito, realizzato con Wordpress ed un tema personalizzato creato da zero.",

@@ -5,12 +5,6 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: 'index.html',
-                about: 'src/pages/about.html',
-                design: 'src/pages/design.html',
-                unigeneration: 'src/pages/unigeneration.html',
-                valoreenergia: 'src/pages/valore-energia.html',
-                coding: 'src/pages/coding.html',
-                experience: 'src/pages/experience.html',
                 404: 'src/pages/404.html',
             }
         }
