@@ -37,7 +37,7 @@ export class Footer extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', '/src/components/footer/footer.css');
+        style.setAttribute('href', '/css/footer.css');
         this.shadowRoot.append(style);
     }
 }

@@ -43,7 +43,7 @@ export class ExperienceCard extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', '/src/components/experience/experience.css');
+        style.setAttribute('href', '/css/experience.css');
         this.shadowRoot.append(style);
     }
 

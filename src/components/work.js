@@ -53,7 +53,7 @@ export class WorkCard extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', '/src/components/work/work.css');
+        style.setAttribute('href', '/css/work.css');
         this.shadowRoot.append(style);
 
     }

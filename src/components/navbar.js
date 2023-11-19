@@ -28,7 +28,7 @@ export class Navbar extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', '/src/components/navbar/navbar.css');
+        style.setAttribute('href', '/css/navbar.css');
         this.shadowRoot.append(style);
     }
 

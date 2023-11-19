@@ -16,7 +16,7 @@ export class Pill extends HTMLElement {
         // css
         const style = document.createElement('link');
         style.setAttribute('rel', 'stylesheet');
-        style.setAttribute('href', '/src/components/pill/pill.css');
+        style.setAttribute('href', '/css/pill.css');
         this.shadowRoot.append(style);
     }
 }
