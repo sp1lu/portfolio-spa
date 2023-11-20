@@ -18,7 +18,7 @@ export class WorkCard extends HTMLElement {
             <article href="${work.url}">
                 <div class="post">
                     <div class="post-author-pic-section">
-                        <img class="post-author-pic" src="https://daviderivolta.com/wp-content/uploads/2023/02/Davide-Rivolta-768x432.jpg" alt="Immagine del profilo di Davide Rivolta">
+                        <img class="post-author-pic" src="https://res.cloudinary.com/duuklscys/image/upload/v1699780742/Portfolio/Davide-Rivolta_futita.jpg" alt="Immagine del profilo di Davide Rivolta">
                     </div>
                     <div class="post-content">
                         <p class="post-author"><span class="post-author-name">Davide Rivolta</span> <span class="post-author-username">@spilu</span><span class="post-date"> • ${JSON.parse(this.getAttribute('work')).year}</span></p>

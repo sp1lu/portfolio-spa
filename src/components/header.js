@@ -15,7 +15,7 @@ export class Header extends HTMLElement {
             <header>
                 <img src="https://res.cloudinary.com/duuklscys/image/upload/v1700301884/Portfolio/banner_mpilqh.png" alt="">
 
-                <img id="profile-pic" src="https://daviderivolta.com/wp-content/uploads/2023/02/Davide-Rivolta-768x432.jpg" alt="Immagine del profilo di Davide Rivolta">
+                <img id="profile-pic" src="https://res.cloudinary.com/duuklscys/image/upload/v1699780742/Portfolio/Davide-Rivolta_futita.jpg" alt="Immagine del profilo di Davide Rivolta">
                 <div id="profile-detail">
                     <h1>Davide Rivolta</h1>
                     <div>
