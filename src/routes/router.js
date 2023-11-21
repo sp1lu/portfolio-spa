@@ -53,6 +53,7 @@ const handleLocation = async () => {
     switch (path) {
         case '/':
         case '/portfolio':
+            navbar.setAttribute('current-page', '/design');
         case '/design':
             const dl = document.querySelector('#design-list');
             designRouter(dl);
