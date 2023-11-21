@@ -19,11 +19,12 @@ a:hover {
 .experience-role-company {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .experience-role-company h3 {
     color: rgb(229, 231, 235);
-    margin: 0;
+    margin: 0 0 2px 0;
 }
 
 .divider {
