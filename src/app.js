@@ -1,3 +1,5 @@
+import '@ungap/custom-elements';
+
 // Import modules
 import '/src/routes/router.js';
 
